@@ -1,7 +1,13 @@
 extends layout
 
 block content
-  section(class="section")
-  div(class="container")
-    h1(class="title") Hello, world!
-    p(class="attribute") My first <strong>website on Bulma and Pug!</strong>
+    section(class="section")
+    .container
+        h1.title КвоккаКвиз
+        p.attribute Свободное образование <strong>по всему</strong> миру!
+
+        .notification.is-info.is-light.mt-5
+            | КвоккаКвиз - это образовательная платформа для школ и других образовательных учереждений для самого удобного проведения самостоятельных работ и проверки знаний
+
+        a.button.is-link.mt-3(href="/more")
+            | Подробнее
